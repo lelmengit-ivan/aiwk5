@@ -1,0 +1,33 @@
+hospital-readmission-prediction/
+│
+├── data/
+│   ├── raw/ (ignored by git)
+│   ├── processed/ (ignored by git)
+│   └── sample_data.csv (small sample for demo)
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_model_evaluation.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── evaluation.py
+│   └── utils.py
+│
+├── models/ (ignored by git)
+├── tests/
+│   ├── test_preprocessing.py
+│   └── test_models.py
+│
+├── config/
+│   └── params.yaml
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── main.py
